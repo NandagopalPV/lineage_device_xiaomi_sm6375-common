@@ -196,7 +196,7 @@ PRODUCT_PACKAGES += \
     gnss@2.0-xtra-daemon.policy
 
 # GSI Keys
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
